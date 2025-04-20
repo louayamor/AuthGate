@@ -3,8 +3,7 @@ package itbs.louayamor.authgate.dto;
 import lombok.Data;
 
 @Data
-public class UserDTO {
-    private Long id;
+public class AuthRequest {
     private String username;
-    private String role;
+    private String password;
 }
